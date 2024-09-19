@@ -1,0 +1,19 @@
+#This file prevents git from adding/commiting/pushing unwanted files
+
+
+#Recommender ignores:
+
+.env
+.DS_Store
+.ipynb_checkpoints
+__pycache__
+
+# Ignore folders:
+# **/ matches directories at any level.
+# "name"/ matches directories named as selected
+
+# Ignores all folders name _old in any directory and level
+**/_old/
+
+# Ignore documents starting with "ig_"
+**/ig_*
